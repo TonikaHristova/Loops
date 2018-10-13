@@ -1,6 +1,18 @@
-word = input()
+import math
+
+word = input().lower()
 number = 0
 
 
-if word.__contains__("a"):
-    number = 1
+for i in word:
+    if i == "a":
+        number += 1
+    elif i == "e":
+        number += 2
+    elif i == "i":
+        number += 3
+    elif i == "o":
+        number += 4
+    elif i == "o":
+        number += 5
+print(number)
