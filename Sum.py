@@ -13,6 +13,6 @@ for i in word:
         number += 3
     elif i == "o":
         number += 4
-    elif i == "o":
+    elif i == "u":
         number += 5
 print(number)
