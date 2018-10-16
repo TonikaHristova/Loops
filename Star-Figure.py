@@ -1,6 +1,8 @@
 num = int(input())
 
-for row in range(num):
-    for col in range(num - row - 1):
-        print(" ", end="")
-    print("*", end="")
+
+for row in range(1,num+1):
+   print((num-row)* " " + "* " * row)
+for row in range(1, num):
+    print(row * " " + "* " * (num - row))
+
